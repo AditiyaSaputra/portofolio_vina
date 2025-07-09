@@ -605,6 +605,7 @@ section,
   display: flex;
   gap: 2rem;
   margin-bottom: 3rem;
+  margin-left: 100px;
 }
 
 @media (max-width: 768px) {
@@ -618,7 +619,7 @@ section,
 @media (max-width: 576px) {
   .hero .hero-stats {
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
   }
 }
 
@@ -915,6 +916,7 @@ section,
 
 .about .about-content .intro {
   margin-bottom: 40px;
+  text-align: justify;
 }
 
 .about .about-content .intro h2 {
@@ -1237,6 +1239,7 @@ section,
   position: sticky;
   top: 20px;
   box-shadow: 0 10px 30px color-mix(in srgb, var(--default-color), transparent 90%);
+  text-align: justify;
 }
 
 .skills .skills-summary h3 {
@@ -1394,6 +1397,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 30%);
   font-size: 1rem;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .resume .experience-section {
@@ -1461,6 +1465,7 @@ section,
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   margin-bottom: 1rem;
   line-height: 1.6;
+  text-align: justify;
 }
 
 .resume .experience-section .experience-cards .experience-card .card-body .achievements {
@@ -1578,6 +1583,7 @@ section,
   margin: 0;
   font-size: 0.9rem;
   line-height: 1.5;
+  text-align: justify;
 }
 
 @media (max-width: 992px) {
@@ -2012,7 +2018,7 @@ section,
 # Testimonials Section
 --------------------------------------------------------------*/
 .testimonials {
-  padding: 80px 0;
+  padding: 60px 0;
   overflow: hidden;
 }
 
@@ -2239,7 +2245,7 @@ section,
 # Faq Section
 --------------------------------------------------------------*/
 .faq {
-  padding-top: 60px;
+  padding-top: 5px;
   padding-bottom: 60px;
 }
 
@@ -2334,6 +2340,7 @@ section,
   padding: 3rem;
   border-radius: 1rem;
   height: 100%;
+  text-align: justify;
 }
 
 .contact .info-box h3 {
@@ -2416,6 +2423,7 @@ section,
   border-radius: 1rem;
   height: 100%;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.05);
+  text-align: justify;
 }
 
 @media (max-width: 992px) {

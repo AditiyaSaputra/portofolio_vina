@@ -497,6 +497,9 @@ section,
   margin: 0;
   letter-spacing: 0.5px;
   position: relative;
+  white-space: normal;
+  white-space: break-word;
+  overflow-wrap: break-word;
 }
 
 .section-title h2::after {
@@ -506,7 +509,6 @@ section,
   display: inline-block;
   background: var(--accent-color);
   margin: 10px 10px;
-  white-space: nowrap;
 }
 
 .section-title p {

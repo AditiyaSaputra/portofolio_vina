@@ -605,7 +605,6 @@ section,
   display: flex;
   gap: 2rem;
   margin-bottom: 3rem;
-  margin-left: 100px;
 }
 
 @media (max-width: 768px) {
@@ -1319,6 +1318,9 @@ section,
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.5px;
+  text-decoration: none;
+  white-space: nowrap;
+  transition: background-color 0.3s;
 }
 
 @keyframes shimmer {

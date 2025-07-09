@@ -506,6 +506,7 @@ section,
   display: inline-block;
   background: var(--accent-color);
   margin: 10px 10px;
+  white-space: nowrap;
 }
 
 .section-title p {

@@ -198,8 +198,6 @@
 
 ------
 
-[Rahul Dhanola](https://github.com/DHANOLA)
-
 Last Edited on: 09/09/2021
 
 
